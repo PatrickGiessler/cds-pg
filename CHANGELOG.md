@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.2](https://github.com/sapmentors/cds-pg/compare/v0.2.0...v0.2.2) (2023-02-15)
+
+
+### Bug Fixes
+
+* add to ([cb267ed](https://github.com/sapmentors/cds-pg/commit/cb267eda444cb1c8698432d66450dd74fd16b5cc))
+* cds_deploy dependency path update ([1d1ad36](https://github.com/sapmentors/cds-pg/commit/1d1ad36aaae18995a2eb2c29d3cb1b7289c7a15b))
+* version ([b4331d2](https://github.com/sapmentors/cds-pg/commit/b4331d230df2bdfb0c2eec38b8cc8b8ef79733ac))
+
 ## 0.2.0 (2023-02-15)
 
 
