@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 // REVISIT: That's just an initial dummy task
-const [, , action, model, db] = process.argv
+// eslint-disable-next-line
+const [, , action, model, to, db] = process.argv
 
 const deploy = async () => {
   const cds = require('@sap/cds')
