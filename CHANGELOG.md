@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.3](https://github.com/sapmentors/cds-pg/compare/v0.2.2...v0.2.3) (2023-02-15)
+
+
+### Bug Fixes
+
+* change bin ([bd41a87](https://github.com/sapmentors/cds-pg/commit/bd41a875e6c7e4bdca9c60053971da787005c5ac))
+
 ### [0.2.2](https://github.com/sapmentors/cds-pg/compare/v0.2.0...v0.2.2) (2023-02-15)
 
 
