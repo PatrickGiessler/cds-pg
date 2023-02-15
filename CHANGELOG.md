@@ -2,6 +2,60 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 0.2.0 (2023-02-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* no more node <12 support!
+
+### Features
+
+*  early version of draft support ([#50](https://github.com/sapmentors/cds-pg/issues/50)) ([9e9af3c](https://github.com/sapmentors/cds-pg/commit/9e9af3ce9575445037900d653c0937774d00587b))
+* @sap/cds 6.5.0 compatibility ([#383](https://github.com/sapmentors/cds-pg/issues/383)) ([28b2c42](https://github.com/sapmentors/cds-pg/commit/28b2c42e7c390eb120e8f8e47ddb8ad7d78f9402))
+* add multi schema feature ([#44](https://github.com/sapmentors/cds-pg/issues/44)) ([2eb6835](https://github.com/sapmentors/cds-pg/commit/2eb6835bcdaef2f37039eb5be5bad4f4cd5e50f2))
+* add support for @sap/cds 4.3.0 ([9845b38](https://github.com/sapmentors/cds-pg/commit/9845b3837372486642f0931de64d25764588d44d))
+* align debug behaviour with cap standard ([#359](https://github.com/sapmentors/cds-pg/issues/359)) ([ffe84a3](https://github.com/sapmentors/cds-pg/commit/ffe84a371ccf1b1144de8dacf3da8dbdd2a2e86c))
+* **cds:** support for 4.4 ([#77](https://github.com/sapmentors/cds-pg/issues/77)) ([b23cb92](https://github.com/sapmentors/cds-pg/commit/b23cb9231bb5c1496005965e966f4abee31b3eb8))
+* **entity:** get a single record/entity ([459475d](https://github.com/sapmentors/cds-pg/commit/459475dfe526be93e68f3fa4fc00e86a7a163341))
+* fill managed fields with username  ([#154](https://github.com/sapmentors/cds-pg/issues/154)) ([0640e13](https://github.com/sapmentors/cds-pg/commit/0640e136cb25743f0171bb9a957d2fe4f9f897c9)), closes [#153](https://github.com/sapmentors/cds-pg/issues/153)
+* re-using as release commit for cds 5.3 support ([#180](https://github.com/sapmentors/cds-pg/issues/180)) ([a79c37e](https://github.com/sapmentors/cds-pg/commit/a79c37e9ce010e38662deadf4768f979296ef984))
+* **sqlite:** run cap proj in-mem for comparison ([c3bc4fe](https://github.com/sapmentors/cds-pg/commit/c3bc4fe1b3151d3e890b1e7e4c24d292f8523632))
+* **string-functions:** support odata indexof ([33c3d32](https://github.com/sapmentors/cds-pg/commit/33c3d323f7445761dfc41d456cde6629fc23c38d))
+* support @sap/cds 5.4 ([1755362](https://github.com/sapmentors/cds-pg/commit/17553620ee5f322b2730742527e544369be49573))
+* support @sap/cds 5.4 ([9b5176c](https://github.com/sapmentors/cds-pg/commit/9b5176c1b04cc281cf30146ae973b7c75c54716b))
+* support @sap/cds 5.9.1  ([#290](https://github.com/sapmentors/cds-pg/issues/290)) ([2ad4acc](https://github.com/sapmentors/cds-pg/commit/2ad4acc6d64fe8a77ef6ee844fbba0fefe073c36))
+* support limit and offset ([#5](https://github.com/sapmentors/cds-pg/issues/5)) ([b5cb922](https://github.com/sapmentors/cds-pg/commit/b5cb9220e24c50ce2297991e2c3744d1486c5a1e))
+* support SAP CP CF PG Hyperscaler Service ([#43](https://github.com/sapmentors/cds-pg/issues/43)) ([c0ba1dd](https://github.com/sapmentors/cds-pg/commit/c0ba1dde81fe5c30a9e1fec9ba6b7d71c51ac3cb))
+* support virtual fields (fixes [#204](https://github.com/sapmentors/cds-pg/issues/204)) ([#211](https://github.com/sapmentors/cds-pg/issues/211)) ([9a60e57](https://github.com/sapmentors/cds-pg/commit/9a60e57077092fe39f7f01e2351e5b84193a2f64))
+* **test:** flow ([3d1853f](https://github.com/sapmentors/cds-pg/commit/3d1853fab3e32c1a86267d570f6e2c6d32cc9251))
+* transform cds sql to pg sql ([#9](https://github.com/sapmentors/cds-pg/issues/9)) ([1b751c3](https://github.com/sapmentors/cds-pg/commit/1b751c36378bdf96bee4981fb0dc3c788c0855ef))
+
+
+### Bug Fixes
+
+* bump dependencies and fix failing testrun ([#103](https://github.com/sapmentors/cds-pg/issues/103)) ([f74fdec](https://github.com/sapmentors/cds-pg/commit/f74fdec888ca29c008f755984bb604852b5557fa)), closes [#102](https://github.com/sapmentors/cds-pg/issues/102)
+* **core:** fix managed field issue + tests ([fe4f09e](https://github.com/sapmentors/cds-pg/commit/fe4f09e5001956d8c174526e5341bb7d5475c28d))
+* **core:** Remove Composition from Select ([#86](https://github.com/sapmentors/cds-pg/issues/86)) ([329e44a](https://github.com/sapmentors/cds-pg/commit/329e44a9e516681f2b0f316c2fa504840fe4cf61))
+* delete with grant ([#334](https://github.com/sapmentors/cds-pg/issues/334)) ([d72ec82](https://github.com/sapmentors/cds-pg/commit/d72ec829643665145552d20c37a235324f3462ce)), closes [#262](https://github.com/sapmentors/cds-pg/issues/262)
+* draft support ([#159](https://github.com/sapmentors/cds-pg/issues/159)) ([f60c391](https://github.com/sapmentors/cds-pg/commit/f60c3911597908354cb467c1fd110bad0f9ccc08)), closes [#79](https://github.com/sapmentors/cds-pg/issues/79)
+* **hana:** env var pointing to dbcapi ([b6b4921](https://github.com/sapmentors/cds-pg/commit/b6b49214a47ba805bf7aa6d1ba616200d837e1db))
+* handle odata concat() correctly ([7b35ab6](https://github.com/sapmentors/cds-pg/commit/7b35ab62caf3bf9d315084aa2e01db7bf9f4360b))
+* issue [#315](https://github.com/sapmentors/cds-pg/issues/315) lowercase INSERT results ([#316](https://github.com/sapmentors/cds-pg/issues/316)) ([7ad25a1](https://github.com/sapmentors/cds-pg/commit/7ad25a1865a1b479fa0e63f0ed6dcc40e0f45704))
+* mapcf username to pg user ([#10](https://github.com/sapmentors/cds-pg/issues/10)) ([d00a6d8](https://github.com/sapmentors/cds-pg/commit/d00a6d8e60ab85c7826ac640aa87e2aafcf914ac))
+* **pool:** release client back to pool correctly ([8027952](https://github.com/sapmentors/cds-pg/commit/8027952a5605cd268b55c4de176bb52da21d947b))
+* remove obsolete deploy file ([26b1ac8](https://github.com/sapmentors/cds-pg/commit/26b1ac85648ffc9454d8ce1a93e8d569b59acd62))
+* return affected row on update ql ([e423555](https://github.com/sapmentors/cds-pg/commit/e423555e9e9cdb930c4c90beefb0c4ec32ef5412))
+* return null when SELECT.one returns empty result instead of empty array ([#266](https://github.com/sapmentors/cds-pg/issues/266)) ([99dc308](https://github.com/sapmentors/cds-pg/commit/99dc308109c0455b5b057023f6d2deeace82b733))
+* return timestamps, not now() for createdat and modifiedat columns ([#278](https://github.com/sapmentors/cds-pg/issues/278)) ([8a2c05b](https://github.com/sapmentors/cds-pg/commit/8a2c05bef8106838ba3228bbf1040e7241ee12d5))
+* support deep update for one to many composition ([#281](https://github.com/sapmentors/cds-pg/issues/281)) ([5e9e124](https://github.com/sapmentors/cds-pg/commit/5e9e124c88a2e94e49be891c4b2726cd8d6adcc4))
+* timestamp conversion issue ([6a38f7d](https://github.com/sapmentors/cds-pg/commit/6a38f7d81001058a82b74947ae347abfc6e3d6dc))
+* timestamp conversion issue ([#243](https://github.com/sapmentors/cds-pg/issues/243)) ([ed83ae4](https://github.com/sapmentors/cds-pg/commit/ed83ae47a0f867805e44bff85f3213cff15aaa1d))
+* use model.definitions to securely access entity by name ([b32f5fe](https://github.com/sapmentors/cds-pg/commit/b32f5fe0fc3dd2e24de4b68cfa9bc20c7acff982))
+
+
+* require node 12+ for cds5 ([#141](https://github.com/sapmentors/cds-pg/issues/141)) ([14077be](https://github.com/sapmentors/cds-pg/commit/14077be8a50bfe5b922f1e49cb7a3390dd7ce9d0))
+
 ### 0.1.35 (2023-02-13)
 
 
